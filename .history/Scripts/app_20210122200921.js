@@ -29,11 +29,6 @@
         mainContent.appendChild(newParagraph);
 
         newParagraph.className = "fs-6";
-
-        // another way of injecting content
-        //let paragraphThree = `<p class = "fs-7 fw-bold">And this is the third paragraph</p>`
-        //mainContent.innerHTML = paragraphThree;
-
      
     }
 
