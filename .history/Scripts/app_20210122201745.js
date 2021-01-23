@@ -42,22 +42,6 @@
 
         // example of inserting after a node
         newParagraph.after(paragraphDiv);
-
-        // deletions
-
-        // example of removing a single element
-        // paragraphOneElement.remove(); 
-
-        // example of removeChild
-        mainContent.removeChild(paragraphOneElement);
-
-        // update / modification 
-        // mainContent.firstElementChild.textContent = "Welcome Home!";
-
-        mainContent.innerHTML = 
-        `<h1 id="firstHeading">Welcome to WEBD6201 - Lab 1</h1>
-         <p id="paragraphOne" class="fs-3 fw-bold">This is my first Paragraph</p>
-        `;
      
     }
 
