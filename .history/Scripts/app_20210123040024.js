@@ -8,28 +8,6 @@
 
 (function()
 {
-
-  // navbar for lab 1
-  // let bottomNavbar = document.createElement("nav");
-  // bottomNavbar.setAttribute("class", "navbar fixed-bottom navbar-light bg-light");
-  // let navbarTagA = document.createElement("a");
-  // navbarTagA.setAttribute("class","navbar-brand");
-  // navbarTagA.setAttribute("href","#");
-  // navbarTagA.textContent="\u00A9CopyRight 2020";
-  // bottomNavbar.appendChild(navbarTagA);
-  // document.getElementsByTagName("body")[0].appendChild(bottomNavbar);
-
-          // SECOND METHOD TO ADD HUMAN RESOURCES
-        /*let list = document.createElement("li"); 
-        let anchor = document.createElement("a"); 
-        list.setAttribute("class", "nav-item"); 
-        anchor.setAttribute("class", "nav-link"); 
-        anchor.setAttribute("href", "#"); 
-        anchor.innerHTML = `<i class = "fas fa-user-tie"></i> Human Resources`;
-
-        list.appendChild(anchor); 
-        let navbar = document.getElementsByClassName("nav-item")[3];
-        navbar.after(list); */
     function displayHome()
     {
         let paragraphOneText =
